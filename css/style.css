@@ -72,20 +72,17 @@ footer {
 .row-footer {
     width: 100%;
     display: flex;
+    align-items: center;
 }
 .col-footer-left {
-    position: relative;
-    display: flex;
-    align-items: center;
+
     margin-left: 0;
     margin-right: 0;
     width: 10%;
 }
 .col-footer-mid {
     width: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .col-footer-right {
@@ -106,16 +103,9 @@ footer {
     margin-left: 20px;
 }
 
-
-
-.left-align {
-    text-align: left;
+.white{ 
+    color: white;
 }
-
-.right-align {
-    text-align: right;
-}
-
 span {
     color: white;
 }
@@ -136,6 +126,9 @@ h5 {
  background-color: #4a4a4a;
  padding: 42px 10px 42px 10px;
 }
+h5:hover {
+    cursor: pointer;
+}
 
 .pinco-pallo {
 position: absolute;
@@ -155,23 +148,33 @@ position: absolute;
 }
 
 .col-footer-left li {
- margin-right: 35px;
+ 
 }
 
-.under-text {
-    position: absolute;
-    bottom: 10px;
-    color: white;
-    text-align: left;
-}
 
 .col-footer-mid ul {
-   display: flex;
+   
+    display: flex;
    list-style-type: none;
 
 }
 
-.col-footer-mid li {
-  padding-right: 30px;
+.text-sotto {
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.text-sotto ul {
+    list-style-type: none;
     
 }
+    .text-sotto li {
+        margin-top: 20px;
+        padding-right: 25px;
+         
+    }
+
+    li:hover {
+        cursor: pointer;
+    }
