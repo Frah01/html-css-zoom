@@ -49,33 +49,84 @@ img {
 
 .col{
     width: 100%;
+    display: flex;
 }
 
 .content {
     margin-top: 10px;
+    display: flex wrap;
 }
 
 footer {
     height: 10vh;
     background-color: #222222;
     display: flex;
+    width: 100%;
 }
 
 .footer-container{
     width: 100%;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 .row-container {
     width: 100%;
     background-color: red;
-    height: 80px;
     display: flex;
 }
 
 .col-footer {
     width: calc(100% / 3);
-    height: 100%;
+    display: flex;
+    align-items: center;
+
 }
 
+.fa-microphone {
+    color: white;
+    scale: 2;
+}
 
+.content-left-col {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+span {
+    color: white;
+}
+
+.white-scale {
+    color: white;
+    scale: 2;
+}
+
+.green-scale{
+    color: green;
+    scale: 2;
+}
+
+h5 {
+ margin: 0;
+}
+
+.pinco-pallo {
+    position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.img-relative {
+    display: relative;
+}
